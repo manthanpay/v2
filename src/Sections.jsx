@@ -129,22 +129,15 @@ export function Scene({ v = 0 }) {
     </svg>
   );
 }
-
 const SLIDES = [
   {
-    // title: "Every village deserves a bank at its doorstep",
-    // text: "Recharge, cash withdrawal and bill payment, right from your local shop.",
-    image: "/banners/aeps-banking.png",
+    image: `${import.meta.env.BASE_URL}banners/aeps-banking.png`,
   },
   {
-    // title: "One platform for everyday payments",
-    // text: "Recharge, BBPS, FASTag, money transfer and digital services from one trusted platform.",
-    image: "/banners/digital-payments.png",
+    image: `${import.meta.env.BASE_URL}banners/digital-payments.png`,
   },
   {
-    // title: "Grow your business with every transaction",
-    // text: "Build your digital shop with reliable services, transparent commissions and simple tools.",
-    image: "/banners/business-growth.png",
+    image: `${import.meta.env.BASE_URL}banners/business-growth.png`,
   },
 ];
 export function Banners({ onJoin }) {
